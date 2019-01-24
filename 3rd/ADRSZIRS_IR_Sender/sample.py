@@ -31,9 +31,6 @@
 #
 #
 
-#Add import
-from datetime import datetime, timedelta
-import sched
 
 from __future__ import print_function
 import smbus
@@ -45,6 +42,11 @@ import subprocess
 import os
 import sys
 import codecs
+
+#Add import
+from datetime import datetime, timedelta
+import sched
+
 
 # for RPI version 1, use "bus = smbus.SMBus(0)"
 bus = smbus.SMBus(1)
